@@ -18,7 +18,7 @@ h2{
     height:20vh;
   }
   .background{
-    background-image: url(../images/Screen\ Shot\ 2019-11-07\ at\ 5.14.21\ PM.png);
+    background-image: url(../images/stillwater.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -51,11 +51,6 @@ h2{
     background-color: wheat;
     border: 1px dashed brown;
 }
-
-  .leftcolumn {
-    width: 75%;
-   
-  }
 
   .card {
     background-color: gray;
