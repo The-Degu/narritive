@@ -10,7 +10,8 @@ window.addEventListener("scroll", function(e) {
     
   
 
-    bg.style.backgroundImage = "url('../../images/rushingwater.gif')";
+    bg.style.backgroundImage = "url('/Users/rileypruitt/Desktop/webartfiles/narritive/docs/assets/gifs/rushingwater.gif')";
+    
     
     
     console.log("hey 2500 happened!");
@@ -28,9 +29,9 @@ window.addEventListener("scroll", function(e) {
 // $(#look).on("mouseleave",function(){
 // });
 
-var beepOne = $("#look")[0];
-$("#glitch1.wav")
-	.mouseenter(function() {
-		beepOne.play();
-	});
+// var beepOne = $("#look")[0];
+// $("#glitch1.wav")
+// 	.mouseenter(function() {
+// 		beepOne.play();
+// 	});
 

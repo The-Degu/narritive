@@ -17,21 +17,24 @@ h2{
     flex-direction: column;
 
   }
+  h3{
+
+  }
   #icon{
     width:10vw;
     height:auto;
     border:solid goldenrod 3px
   }
   #background{
-    background-image: url(../images/stillwater.jpg);
+    background-image: url(../assets/imgs/stillwater.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 
   }
   #backgroundalt{
-    background-image: url(../images/rushingwater.gif);
-    background-repeat: no-repeat;
+    background-image: url(../assets/gifs/rushingwater.gif);
+    background-repeat: no-repeat; 
     background-size: cover;
     background-attachment: fixed;
    
@@ -150,6 +153,10 @@ h2{
     display: block;
     content: "A";
 }
+.one{
+  animation: shake .5s linear infinite;
+}
+
 
 @keyframes changeLetter {
   0% {
@@ -165,6 +172,22 @@ h2{
 .letter-changer::after {
   animation: changeLetter 3s linear infinite alternate;
 }
+@keyframes shake{
+  10%, 90% {
+    transform: translate3d(-2px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-2px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(2px, 0, 0);
+  }
 
 #one
 #two
