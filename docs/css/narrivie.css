@@ -1,6 +1,7 @@
 *{
   margin:0;
   padding:0;
+  
 }
 body {
     font-family: Arial;
@@ -17,9 +18,9 @@ h2{
     flex-direction: column;
 
   }
-  h3{
-
-  }
+h3{
+  color:gray
+}
   #icon{
     width:10vw;
     height:auto;
@@ -40,7 +41,16 @@ h2{
    
 
   } 
-  
+  #otherbg{
+    background-image: url(../assets/imgs/fish.jpg);
+    margin:0;
+    padding:0;
+    height: 95vh;
+    width: fill;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .header {
     padding: 30px;
     font-size: 40px;
@@ -65,7 +75,14 @@ h2{
     background-color: rosybrown;
     border: 1px dashed brown;
 }
-
+#click{
+  position: absolute;
+  background-color:transparent;
+  height:40vh;
+  width:40vh;
+  margin-left: 650px;
+  margin-top: 250px;
+}
   .card {
     background-color: gray;
     padding: 20px;
