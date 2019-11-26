@@ -1,0 +1,58 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.bg{
+    height:100vh;
+    width:100vw;
+    background-color:white;   
+    display:flex;
+  }
+  
+
+  .top {
+      position: absolute;
+    animation-name: imageswap;
+    animation-iteration-count: 1;
+    animation-duration: 60s;
+    animation-fill-mode: forwards;
+  
+    }
+    .bottom {
+        position: absolute;
+        left:0px;
+        animation-name: gifage ;
+        animation-iteration-count: 1;
+        animation-duration: 60s;
+        animation-fill-mode: forwards;
+     
+        }
+@keyframes gifage{
+    0% {
+        opacity: 0;
+    }
+
+    99% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+  @keyframes imageswap {
+      0% {
+    opacity: 1;
+}
+
+99% {
+    opacity: 1;
+}
+100% {
+    opacity: 0;
+}
+  }
+
+
+
+  

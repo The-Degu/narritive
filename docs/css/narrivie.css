@@ -1,6 +1,6 @@
 *{
-  margin:0;
-  padding:0;
+  margin:0px;
+  padding:0px;
   
 }
 body {
@@ -144,51 +144,14 @@ h3{
 }
 
 
-.fourth-text {
-  font-size: 3.4rem;
-  position: absolute;
-  top: 10.5rem;
-  left: 10%;
-  opacity: 0;
-  color: #F0A3BE;
-  animation-name: fadeInOut;
-  animation-delay: 8.5s;
-  animation-duration: 9s;
-}
-.bg{
-  height:100vh;
-  width:100vw;
-  background-color:lightblue;   
-  display:flex;
-}
-.fourohfour{
-  font-size:300%;
-  color:seagreen;
-    height: 50%;
-    width:50vw;
-    animation: changeLetter 3s linear infinite alternate;
-    display: block;
-    content: "A";
-}
+
+
 .one{
   animation: shake .5s linear infinite;
 }
 
 
-@keyframes changeLetter {
-  0% {
-    content: "A";
-  }
-  50% {
-    color: white;
-  }
-  100% {
-    content: "B";
-  }
-}
-.letter-changer::after {
-  animation: changeLetter 3s linear infinite alternate;
-}
+
 @keyframes shake{
   10%, 90% {
     transform: translate3d(-2px, 0, 0);
