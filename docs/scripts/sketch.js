@@ -10,7 +10,7 @@ window.addEventListener("scroll", function(e) {
     
   
 
-    bg.style.backgroundImage = "url('/Users/rileypruitt/Desktop/webartfiles/narritive/docs/assets/gifs/rushingwater.gif')";
+    bg.style.backgroundImage = "url('assets/gifs/rushingwat.gif')";
     
     
     
