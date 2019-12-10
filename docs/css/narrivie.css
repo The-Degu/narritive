@@ -19,7 +19,7 @@ h2{
 
   }
 h3{
-  color:gray
+  color:gray  
 }
   #icon{
     width:10vw;
@@ -72,7 +72,7 @@ h3{
     text-align: center;
 
 
-    background-color: rosybrown;
+    background-color:rgb(37, 62, 70);
     border: 1px dashed brown;
 }
 #click{
@@ -83,8 +83,11 @@ h3{
   margin-left: 650px;
   margin-top: 250px;
 }
+a{
+  color:rgb(151, 151, 151)
+}
   .card {
-    background-color: gray;
+    background-color: rgb(127, 172, 146);
     padding: 20px;
     margin-top: 20px;
     width: 65vw;  
@@ -98,16 +101,7 @@ h3{
     width: auto;
     height: 50vh;
   }
-  /* .look{ 
-    background-image:url(../images/rocknormal.jpg);
-    width: auto;
-    height: 50vh;
-    background-color: goldenrod;
-    background-repeat: no-repeat;
-  background-size: cover;
-   } */
 
-  /* Footer */
   .footer {
     padding: 20px;
     text-align: center;
@@ -167,10 +161,13 @@ h3{
 
   40%, 60% {
     transform: translate3d(2px, 0, 0);
-  }
+  }}
 
-#one
-#two
-#three
-#four
+.gag:hover  {
+    opacity:1;
+    transition:0s;
+    background-color:pink
+}
 
+}
+ss

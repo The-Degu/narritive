@@ -1,6 +1,4 @@
-var glitch = document.getElementById("#glitch")[0];
-var lo = document.getElementById(".look")
-	.mouseenter(function(){
-		glitch.play();
-		console.log("the hover works")
-	});
+var audio = $("../assets/sound/glitch.wav")[0];
+$("one").mouseenter(function() {
+  audio.play();
+});
